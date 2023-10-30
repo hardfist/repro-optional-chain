@@ -1,3 +1,2 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import secret from './secret';
+console.log('secret', secret?.abc);
